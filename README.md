@@ -6,7 +6,8 @@ You can change this value and also can add new size.
 ```php
 require 'pscan.php';
 $scan = new pscandir();
-$scan->changeExistingSizeByKey('thumb', array('folder_name'=>'changed-thumb', 'folder_size'=>800));$scan->scanAndResize(__DIR__ . DIRECTORY_SEPARATOR);
+$scan->changeExistingSizeByKey('thumb', array('folder_name'=>'changed-thumb', 'folder_size'=>800));
+$scan->scanAndResize(__DIR__ . DIRECTORY_SEPARATOR);
 ```
 
 #Get all set sizes
