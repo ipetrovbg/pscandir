@@ -5,4 +5,6 @@ The class make 3 different size of founded image (1080px, 500px and 150px). Thes
 For change size of resizing image call setConfiqLarg(), setConfiqThumb(), setConfiqSmall().
 Note that setConfiqSmall() is cropping founded image with set values (150x150px)!
 
+Class work perfect with all image types.
+
 Example in index.php
