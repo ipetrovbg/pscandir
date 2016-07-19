@@ -11,13 +11,13 @@ $scan = new pscandir();
 $scan->scanAndResize('__DIR__ . DIRECTORY_SEPARATOR');
 ```
 
-#Get all set sizes
+###Get all set sizes
 ```php
 require 'pscan.php';
 $scan = new pscandir();
 print_r($scan->getFolders());
 ```
-#Get only scanned structure
+###Get only scanned structure
 ```php
 require 'pscan.php';
 $scan = new pscandir();
@@ -25,7 +25,7 @@ echo "<pre>";
 print_r($scan->scan(__DIR__ . DIRECTORY_SEPARATOR));
 echo "</pre>";
 ```
-#delete size by folder name or key
+###delete size by folder name or key
 ```php
 require 'pscan.php';
 $scan = new pscandir();
@@ -34,13 +34,13 @@ $scan->deleteFolderByName('thumb');
 //by id
 $scan->deleteFolderByKey(0);
 ```
-#add new size
+###add new size
 ```php
 require 'pscan.php';
 $scan = new pscandir();
 $scan->addSize(array('folder_name'=>'new-folder', 'folder_size'=>700));
 ```
-#crop size
+###crop size
 ```php
 require 'pscan.php';
 $scan = new pscandir();
