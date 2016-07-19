@@ -4,7 +4,7 @@ Scanning for images in directory and subdirectory and resizing it
 The class make one size of founded image (600px) with folder name "thumb". This is default value.
 You can change this value and also can add new size.
 
-##Semple ex:
+###Semple ex:
 ```php
 require 'pscan.php';
 $scan = new pscandir();
